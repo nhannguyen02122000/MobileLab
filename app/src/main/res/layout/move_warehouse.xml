@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="456dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/title_gradient" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:rotation="180"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24_white" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:text="Chuyển kho"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/halfrounded_background"
+        android:layout_marginTop="120dp">
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:rotation="90"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Chọn sản phẩm cần chuyển"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_toRightOf="@id/iv1"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_below="@id/iv1"
+            android:layout_marginTop="15dp"
+            android:id="@+id/search"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:startIconDrawable="@drawable/ic_baseline_search_24"
+            app:startIconTint="@color/button_purple">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_user"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_darker_gray_search"
+                android:hint="@string/search"
+                android:importantForAutofill="no"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/search"
+            android:layout_marginTop="20dp"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageView51"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+
+                        app:srcCompat="@drawable/product1"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Thuốc Paracetamol"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/product2"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/product2"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Kem trị nám"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/product3"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+
+                        app:srcCompat="@drawable/product3"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Serium"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/product4"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+
+                        app:srcCompat="@drawable/product3"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Serium"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/product5"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+
+                        app:srcCompat="@drawable/product3"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Serium"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/product6"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+
+                        app:srcCompat="@drawable/product3"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Serium"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/product7"
+                        android:layout_width="56dp"
+                        android:layout_height="45dp"
+
+                        app:srcCompat="@drawable/product3"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="83dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Serium"
+                        android:textSize="18sp"
+                        android:textColor="#575E6F"
+                        android:gravity="center_vertical"
+                        />
+                    <CheckBox
+                        android:layout_marginLeft="317dp"
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:layout_below="@id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnsignUp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:onClick="logIn"
+            android:text="@string/signup"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
