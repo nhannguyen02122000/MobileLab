@@ -3,11 +3,6 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
-        <entry key="imageWizard">
-          <value>
-            <PersistentState />
-          </value>
-        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -23,11 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-<<<<<<< HEAD
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/business_center/baseline_business_center_24.xml" />
-=======
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/house_siding/baseline_house_siding_24.xml" />
->>>>>>> Tmp
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/calendar_today/baseline_calendar_today_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -37,12 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ffffff" />
-<<<<<<< HEAD
-                            <entry key="outputName" value="ic_baseline_business_center_24" />
-=======
-                            <entry key="outputName" value="ic_baseline_house_siding_24" />
->>>>>>> Tmp
+                            <entry key="color" value="575e6f" />
+                            <entry key="outputName" value="ic_baseline_calendar_today_24" />
                           </map>
                         </option>
                       </PersistentState>
