@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="456dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="504dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kho_pict" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/halfrounded_background"
+        android:layout_marginTop="100dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv_wh_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kho Sài Gòn 1"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_address"
+                    android:layout_marginTop="5dp"
+                    android:text="235 Nguyễn Văn cừ, Quận 5,  Hồ Chí minh"
+                    android:layout_below="@id/tv_wh_name"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_phone"
+                    android:layout_marginTop="3dp"
+                    android:text="SG1001"
+                    android:layout_below="@id/tv_address"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tenquanly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thông tin người quản lý"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/tv_phone"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="18dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_outline_edit_24"
+                    android:layout_toRightOf="@id/tenquanly"
+                    android:layout_below="@id/tv_phone"
+
+                    android:layout_marginTop="18dp"
+                    android:paddingLeft="75dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tenquanly"
+                    android:layout_marginTop="13dp"
+                    android:paddingLeft="30dp"
+                    android:id="@+id/rl_quanlyinfo">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nguyễn Thành Nhân"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:id="@+id/hovaten"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0913122111"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/sdtquanly"
+                        android:layout_below="@id/hovaten"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nhan@gmail.com"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/emailquanly"
+                        android:layout_below="@id/sdtquanly"/>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/breakline1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c8c8c8"
+                    android:layout_below="@id/rl_quanlyinfo"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Danh sách sản phẩm"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/listproduct"
+                    android:layout_below="@id/breakline1"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24_gray"
+                    android:layout_below="@id/breakline1"
+                    android:layout_toRightOf="@id/listproduct"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="100dp"/>
+
+                <View
+                    android:id="@+id/breakline2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c8c8c8"
+                    android:layout_below="@id/listproduct"
+                    android:layout_marginTop="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khoảng trống kho"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/khoantrongkho"
+                    android:layout_below="@id/breakline2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="36"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:id="@+id/sokhoangtrong"
+                    android:layout_below="@id/khoantrongkho"/>
+
+                <View
+                    android:id="@+id/breakline3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c8c8c8"
+                    android:layout_below="@id/sokhoangtrong"
+                    android:layout_marginTop="14dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/breakline3"
+                    android:layout_marginTop="14dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Danh sách các vị trí"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:id="@+id/vitrikho"/>
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_baseline_add_24"
+                        android:background="@drawable/round_darkergray_add"
+                        android:layout_below="@id/vitrikho"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thêm vị trí mới"
+                        android:layout_toRightOf="@id/imageView4"
+                        android:layout_below="@id/vitrikho"
+                        android:textSize="18sp"
+                        android:textColor="@color/button_purple"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView4"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

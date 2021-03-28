@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="456dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/title_gradient" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:rotation="180"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24_white" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:text="Xác nhận đơn nhập hàng"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/halfrounded_background"
+        android:layout_marginTop="80dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#I233131231"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_toRightOf="@id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13:05 18/02/2021"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="90dp"/>
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv1"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#123456789"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="59dp"
+                        android:layout_toRightOf="@id/tv4"
+                        android:text="LaRoch Posay"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="51dp"
+                        android:layout_toRightOf="@id/tv5"
+                        android:text="XR12"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/breakline1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#c8c8c8"
+                        android:layout_below="@id/tv6"
+                        android:layout_marginTop="14dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl1"
+                    android:id="@+id/rl2"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:id="@+id/tv40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#121426789"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tv50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="59dp"
+                        android:layout_toRightOf="@id/tv40"
+                        android:text="LaRoch Posay"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="51dp"
+                        android:layout_toRightOf="@id/tv50"
+                        android:text="XR13"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/breakline10"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#c8c8c8"
+                        android:layout_below="@id/tv60"
+                        android:layout_marginTop="14dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl2"
+                    android:id="@+id/rl3"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:id="@+id/tv400"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#121426789"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tv500"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="59dp"
+                        android:layout_toRightOf="@id/tv400"
+                        android:text="LaRoch Posay"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv600"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="51dp"
+                        android:layout_toRightOf="@id/tv500"
+                        android:text="XR13"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/breakline100"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#c8c8c8"
+                        android:layout_below="@id/tv600"
+                        android:layout_marginTop="14dp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvxx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Quét mã để xác nhận thêm sản phẩm"
+                    android:layout_below="@id/rl3"
+                    android:layout_marginTop="60dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/button_purple"/>
+                <ImageView
+                    android:id="@+id/iv11"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tvxx"
+                    android:src="@drawable/ic_baseline_qr_code_24"
+                    android:background="@drawable/round_darkergray_add"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_below="@id/iv11"
+                    android:id="@+id/btnsignUp"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/round_button"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="logIn"
+                    android:text="Xác nhận"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"/>
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
