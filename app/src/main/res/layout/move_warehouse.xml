@@ -364,7 +364,7 @@
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:onClick="logIn"
-            android:text="@string/signup"
+            android:text="Chuyển"
             android:fontFamily="sans-serif"
             android:textColor="#ffffff"
             android:textSize="20sp" />
