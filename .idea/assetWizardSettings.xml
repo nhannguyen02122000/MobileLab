@@ -23,7 +23,11 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
+<<<<<<< HEAD
                                       <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/business_center/baseline_business_center_24.xml" />
+=======
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/house_siding/baseline_house_siding_24.xml" />
+>>>>>>> Tmp
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -34,7 +38,11 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ffffff" />
+<<<<<<< HEAD
                             <entry key="outputName" value="ic_baseline_business_center_24" />
+=======
+                            <entry key="outputName" value="ic_baseline_house_siding_24" />
+>>>>>>> Tmp
                           </map>
                         </option>
                       </PersistentState>
