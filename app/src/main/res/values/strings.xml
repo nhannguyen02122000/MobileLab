@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Smart Warehouse</string>
+    <string name="welcome">Chào mừng bạn đến với Sware</string>
+    <string name="hello">Xin chào,</string>
+    <string name="login_role">Tham gia Sware với vai trò</string>
+    <string name="login">Đăng nhập</string>
+    <string name="account">Tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="forgot_pass">Quên mật khẩu?</string>
+    <string name="signup">Đăng kí</string>
+    <string name="search">Tìm kiếm</string>
+</resources>
