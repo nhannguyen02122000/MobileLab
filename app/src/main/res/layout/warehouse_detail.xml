@@ -80,7 +80,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_outline_edit_24"
+                    app:srcCompat="@drawable/ic_outline_edit_24"
                     android:layout_toRightOf="@id/tenquanly"
                     android:layout_below="@id/tv_phone"
 
@@ -143,7 +143,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24_gray"
+                    app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24_gray"
                     android:layout_below="@id/breakline1"
                     android:layout_toRightOf="@id/listproduct"
                     android:layout_marginTop="15dp"

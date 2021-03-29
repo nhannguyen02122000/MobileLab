@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
         android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
         android:width="89dp"
         android:height="35dp"
         android:text="Tạo file"
@@ -27,15 +28,17 @@
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="0dp"
-        android:layout_height="18dp"
+        android:layout_height="36dp"
         android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
         android:maxHeight="50dp"
         app:layout_constraintBottom_toBottomOf="@+id/createpdf25"
         app:layout_constraintEnd_toStartOf="@+id/createpdf25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/createpdf25"
-        app:srcCompat="@drawable/backBtn" />
+        app:srcCompat="@drawable/backbtnn" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout"

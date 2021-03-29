@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.warehouseapp.MainActivity">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -64,7 +64,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_below="@id/tv1"
-                android:src="@drawable/ic_baseline_arrow_right_24" />
+                app:srcCompat="@drawable/ic_baseline_arrow_right_24" />
 
             <TextView
                 android:id="@+id/tv2"
@@ -80,7 +80,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_below="@id/iv1"
-                android:src="@drawable/ic_baseline_arrow_left_24" />
+                app:srcCompat="@drawable/ic_baseline_arrow_left_24" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_receipt_long_24"
+                                app:srcCompat="@drawable/ic_baseline_receipt_long_24"
                                 android:layout_centerInParent="true"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
@@ -175,7 +175,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_local_shipping_24"
+                                app:srcCompat="@drawable/ic_baseline_local_shipping_24"
                                 android:layout_centerInParent="true"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
@@ -218,7 +218,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_insert_drive_file_24"
+                                app:srcCompat="@drawable/ic_baseline_insert_drive_file_24"
                                 android:layout_centerInParent="true"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
@@ -266,7 +266,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_transform_24"
+                                app:srcCompat="@drawable/ic_baseline_transform_24"
                                 android:layout_centerInParent="true"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
@@ -309,7 +309,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_local_shipping_24"
+                                app:srcCompat="@drawable/ic_baseline_local_shipping_24"
                                 android:layout_centerInParent="true"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
@@ -352,7 +352,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_house_siding_24"
+                                app:srcCompat="@drawable/ic_baseline_house_siding_24"
                                 android:layout_centerInParent="true"/>
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>

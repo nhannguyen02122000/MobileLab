@@ -21,6 +21,7 @@
         android:rotation="180"
         android:layout_marginTop="15dp"
         android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24_white" />
@@ -119,7 +120,7 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv61"
-            android:layout_marginLeft="0p"
+            android:layout_marginLeft="0dp"
             android:layout_marginTop="71dp"
             android:background="@drawable/purple_stroke"
             android:fontFamily="sans-serif"

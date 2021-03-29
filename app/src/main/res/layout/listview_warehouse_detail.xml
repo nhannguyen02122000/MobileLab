@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/cv_cate_1"
     android:layout_margin="5dp"
-    android:cardElevation="0dp">
+    app:cardElevation="0dp">
 
     <RelativeLayout
         android:padding="15dp"
