@@ -10,7 +10,7 @@
         android:id="@+id/imageView5"
         android:layout_width="456dp"
         android:layout_height="287dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginBottom="520dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -61,14 +61,14 @@
             android:layout_marginLeft="15dp"/>
         <TextView
             android:id="@+id/tv1"
-            android:layout_marginTop="18dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:text="Chọn sản phẩm cần chuyển"
             android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="18sp"
             android:layout_toRightOf="@id/iv1"
             android:layout_centerHorizontal="true"
             />
@@ -360,7 +360,7 @@
             android:layout_below="@id/scrollView"
             android:layout_centerHorizontal="true"
             android:id="@+id/btnsignUp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="28dp"
             android:background="@drawable/round_button"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
@@ -368,6 +368,6 @@
             android:text="Chuyển"
             android:fontFamily="sans-serif"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,7 +24,7 @@
         android:layout_width="11dp"
         android:layout_height="18dp"
         android:maxHeight="50dp"
-        app:srcCompat="@drawable/backBtn"
+        app:srcCompat="@drawable/backbtn"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="54dp" />
     <RelativeLayout

@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab">
-        <activity android:name="com.warehouseapp.MainActivity">
+        <activity android:name="com.warehouseapp.activities.SplashScreenActivity">
+
+        </activity>
+        <activity android:name=".activities.LoginActivity"></activity>
+        <activity android:name=".activities.LoginInActivity"></activity>
+        <activity android:name=".activities.ImportProductActivity"></activity>
+        <activity android:name=".activities.ExportActivity"></activity>
+        <activity android:name=".activities.MoveProductActivity"></activity>
+        <activity android:name=".activities.CreateFileActivity"></activity>
+        <activity android:name=".activities.ProductListActivity"></activity>
+        <activity android:name=".activities.WarehouseManagementActivity"></activity>
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

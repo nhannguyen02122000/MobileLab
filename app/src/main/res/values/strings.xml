@@ -9,4 +9,5 @@
     <string name="forgot_pass">Quên mật khẩu?</string>
     <string name="signup">Đăng kí</string>
     <string name="search">Tìm kiếm</string>
+    <string name="error_emptyFiled">Trường này không thể trống</string>
 </resources>
