@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,36 +10,31 @@
         android:id="@+id/imageView6"
         android:layout_width="623dp"
         android:layout_height="725dp"
-        android:layout_marginBottom="458dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="570dp"
+        android:scaleX="3.2"
+        android:scaleY="1.7"
         app:srcCompat="@drawable/gradient_circle" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
         android:text="Đơn xuất kho"
-        android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textColor="#F6F6F6"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
-        android:layout_width="30sp"
+        android:layout_width="25sp"
         android:layout_height="30sp"
         app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24_white"
         android:rotation="180"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp"/>
+        />
 
     <TextView
         android:id="@+id/textView9"
@@ -47,29 +42,23 @@
         android:layout_height="wrap_content"
         android:text="2"
         android:textColor="@color/white"
-        android:textSize="22sp"
-        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
         android:textStyle="bold"
 
-        app:layout_constraintTop_toBottomOf="@id/textView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đơn cần xuất"
+        android:text="Tổng số đơn cần xuất"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
 
-        app:layout_constraintTop_toBottomOf="@id/textView9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        app:layout_constraintTop_toBottomOf="@id/textView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
 
         android:id="@+id/search"
         android:layout_width="350dp"
@@ -77,6 +66,8 @@
         android:importantForAutofill="no"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
         app:boxStrokeWidth="0dp"
         app:boxStrokeWidthFocused="0dp"
         app:startIconDrawable="@drawable/ic_baseline_search_24"
@@ -93,166 +84,166 @@
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/search"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:paddingTop="5dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cv1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/cardview_receive_note"
-                    android:padding="13dp">
-                    <TextView
-                        android:id="@+id/tv1"
-                        android:fontFamily="sans-serif"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#1224224"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"/>
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/search"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingRight="20dp">-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/cardview_receive_note"-->
+<!--                    android:padding="13dp">-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/tv1"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="#1224224"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv1"
-                        android:id="@+id/tv2"
-                        android:layout_marginTop="10dp"
-                        android:text="Nhà cung cấp: Laroche Posay Vietnam"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv2"
-                        android:id="@+id/tv3"
-                        android:layout_marginTop="2dp"
-                        android:text="Tên lô hàng: A2212"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv3"
-                        android:id="@+id/tv4"
-                        android:layout_marginTop="2dp"
-                        android:text="Thời gian xuất: 28/03/2021"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv4"
-                        android:id="@+id/tv5"
-                        android:layout_marginTop="2dp"
-                        android:text="Thời gian đến dự kiến: 31/03/2021"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv5"
-                        android:id="@+id/tv6"
-                        android:layout_marginTop="2dp"
-                        android:text="Liên hệ vận chuyển: anh Nhân - 0913013139"
-                        android:fontFamily="sans-serif"/>
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv1"-->
+<!--                        android:id="@+id/tv2"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:text="Nhà cung cấp: Laroche Posay Vietnam"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv2"-->
+<!--                        android:id="@+id/tv3"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Tên lô hàng: A2212"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv3"-->
+<!--                        android:id="@+id/tv4"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Thời gian xuất: 28/03/2021"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv4"-->
+<!--                        android:id="@+id/tv5"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Thời gian đến dự kiến: 31/03/2021"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv5"-->
+<!--                        android:id="@+id/tv6"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Liên hệ vận chuyển: anh Nhân - 0913013139"-->
+<!--                        android:fontFamily="sans-serif"/>-->
 
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="36dp"
-                        android:layout_below="@id/tv6"
-                        android:background="@drawable/round_button"
-                        android:gravity="right"
-                        android:text="Xác nhận lô hàng"
-                        android:textAllCaps="false"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="190dp"
-                        android:layout_marginTop="10dp"/>
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:layout_below="@id/tv6"-->
+<!--                        android:background="@drawable/round_button"-->
+<!--                        android:gravity="right"-->
+<!--                        android:text="Xác nhận lô hàng"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:textSize="10sp"-->
+<!--                        android:layout_marginLeft="190dp"-->
+<!--                        android:layout_marginTop="10dp"/>-->
+<!--                </RelativeLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
 
-            <androidx.cardview.widget.CardView
-                android:layout_below="@id/cv1"
-                android:layout_marginTop="13dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/cardview_receive_note"
-                    android:padding="13dp">
-                    <TextView
-                        android:id="@+id/tv10"
-                        android:fontFamily="sans-serif"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#213424"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"/>
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_below="@id/cv1"-->
+<!--                android:layout_marginTop="13dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/cardview_receive_note"-->
+<!--                    android:padding="13dp">-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/tv10"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="#213424"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="18sp"/>-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv10"
-                        android:id="@+id/tv20"
-                        android:layout_marginTop="10dp"
-                        android:text="Nhà cung cấp: Vichy"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv20"
-                        android:id="@+id/tv30"
-                        android:layout_marginTop="2dp"
-                        android:text="Tên lô hàng: A2112"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv30"
-                        android:id="@+id/tv40"
-                        android:layout_marginTop="2dp"
-                        android:text="Thời gian xuất: 10/03/2021"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv40"
-                        android:id="@+id/tv50"
-                        android:layout_marginTop="2dp"
-                        android:text="Thời gian đến dự kiến: 12/03/2021"
-                        android:fontFamily="sans-serif"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/tv50"
-                        android:id="@+id/tv60"
-                        android:layout_marginTop="2dp"
-                        android:text="Liên hệ vận chuyển: anh Nhân - 0913013139"
-                        android:fontFamily="sans-serif"/>
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv10"-->
+<!--                        android:id="@+id/tv20"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:text="Nhà cung cấp: Vichy"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv20"-->
+<!--                        android:id="@+id/tv30"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Tên lô hàng: A2112"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv30"-->
+<!--                        android:id="@+id/tv40"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Thời gian xuất: 10/03/2021"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv40"-->
+<!--                        android:id="@+id/tv50"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Thời gian đến dự kiến: 12/03/2021"-->
+<!--                        android:fontFamily="sans-serif"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/tv50"-->
+<!--                        android:id="@+id/tv60"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:text="Liên hệ vận chuyển: anh Nhân - 0913013139"-->
+<!--                        android:fontFamily="sans-serif"/>-->
 
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="36dp"
-                        android:layout_below="@id/tv60"
-                        android:background="@drawable/round_button"
-                        android:gravity="right"
-                        android:text="Xác nhận lô hàng"
-                        android:textAllCaps="false"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="190dp"
-                        android:layout_marginTop="10dp"/>
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-        </RelativeLayout>
-    </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:layout_below="@id/tv60"-->
+<!--                        android:background="@drawable/round_button"-->
+<!--                        android:gravity="right"-->
+<!--                        android:text="Xác nhận lô hàng"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:textSize="10sp"-->
+<!--                        android:layout_marginLeft="190dp"-->
+<!--                        android:layout_marginTop="10dp"/>-->
+<!--                </RelativeLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+<!--        </RelativeLayout>-->
+<!--    </ScrollView>-->
+</RelativeLayout>

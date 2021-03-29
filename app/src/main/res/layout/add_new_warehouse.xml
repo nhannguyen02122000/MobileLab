@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -7,24 +7,24 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="44dp"
-        android:layout_height="44dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:rotation="180"
-        android:layout_marginTop="15dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24_gray" />
     <TextView
         android:id="@+id/textView6"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="33dp"
         android:fontFamily="sans-serif"
         android:text="Tạo kho hàng mới"
         android:textStyle="bold"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +46,7 @@
             android:text="Thông tin kho"
             android:id="@+id/tv_ttk"
             android:layout_marginBottom="10dp"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textColor="@color/button_purple"/>
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/til_tenkho"
@@ -137,7 +137,7 @@
             android:id="@+id/tv_ttqlk"
             android:layout_marginBottom="5dp"
             android:layout_marginTop="20dp"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textColor="@color/button_purple"
             android:layout_below="@id/til_tt"/>
 
@@ -191,4 +191,4 @@
 
     </RelativeLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,8 +18,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
@@ -33,7 +33,7 @@
             android:fontFamily="sans-serif"
             android:text="Thành phố Hồ Chí Minh"
             android:textStyle="bold"
-            android:textSize="32sp"
+            android:textSize="20sp"
             android:layout_below="@id/imageView3"
             android:layout_centerHorizontal="true"
             />
@@ -61,11 +61,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/imageView4"
-                android:layout_marginTop="18dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
                 android:text="Thêm kho mới"
                 android:textColor="@color/button_purple"
-                android:textSize="27sp"/>
+                android:textSize="18sp"/>
 
         </RelativeLayout>
         <ListView
@@ -76,4 +76,4 @@
 
     </RelativeLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
