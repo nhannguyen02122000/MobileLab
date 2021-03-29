@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <TextView
+        android:id="@+id/createpdf25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="52dp"
+        android:width="200dp"
+        android:height="35dp"
+        android:text="Tạo sản phẩm mới"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:maxHeight="50dp"
+
+        app:srcCompat="@drawable/backbtn"
+        tools:layout_editor_absoluteX="-170dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/borderlist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="470dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Hoàn tất" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="90dp"
+            android:text="Tên sản phẩm"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:text="Tinh dầu hoa anh thảo"
+            android:textSize="13sp"
+            />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_marginTop="160dp"
+            android:layout_width="350dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="180dp"
+            android:text="Giá"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="210dp"
+            android:text="100 000 VND"
+            android:textSize="13sp"
+            />
+        <View
+            android:layout_height="1dp"
+            android:layout_marginTop="240dp"
+            android:layout_width="350dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/darker_gray" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="175dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/product"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
