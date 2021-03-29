@@ -111,7 +111,6 @@
         android:layout_height="122dp"
         android:layout_marginTop="100dp"
         app:srcCompat="@drawable/newproduct"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="107dp" />
+        />
 
 </RelativeLayout>
