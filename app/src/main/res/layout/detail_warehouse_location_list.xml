@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView3_xyz"
             android:layout_width="20dp"
             android:layout_height="20dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"/>
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView6_tenkho"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"

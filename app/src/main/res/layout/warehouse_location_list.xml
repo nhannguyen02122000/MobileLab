@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView3_abc"
         android:layout_width="39dp"
         android:layout_height="39dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,6 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/loc_list_rec"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

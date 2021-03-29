@@ -21,6 +21,7 @@
             app:srcCompat="@drawable/ic_baseline_location_on_30" />
 
         <TextView
+            android:id="@+id/tv_list_loc"
             android:layout_marginLeft="5dp"
             android:layout_toRightOf="@id/imageView4"
             android:paddingBottom="5dp"
