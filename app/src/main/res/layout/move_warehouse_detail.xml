@@ -283,4 +283,4 @@
             android:textColor="#ffffff"
             android:textSize="20sp"/>
     </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
