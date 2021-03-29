@@ -9,12 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.warehouseapp.R;
 
-public class ImportProductActivity extends AppCompatActivity {
+public class ExportProductActivity extends AppCompatActivity {
     Button btn1,btn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.receive_note);
+        setContentView(R.layout.export_note);
 
         btn1 = findViewById(R.id.btn_con1);
         btn2 = findViewById(R.id.btn_con2);
@@ -22,14 +22,14 @@ public class ImportProductActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ImportProductActivity.this, ReceiveNoteConfirmActivity.class));
+                startActivity(new Intent(ExportProductActivity.this, ExportNoteConfirmActivity.class));
             }
         });
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ImportProductActivity.this, ReceiveNoteConfirmActivity.class));
+                startActivity(new Intent(ExportProductActivity.this, ExportNoteConfirmActivity.class));
             }
         });
     }

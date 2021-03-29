@@ -160,6 +160,7 @@
                         android:fontFamily="sans-serif"/>
 
                     <Button
+                        android:id="@+id/btn_con1"
                         android:layout_width="wrap_content"
                         android:layout_height="36dp"
                         android:layout_below="@id/tv6"
@@ -235,6 +236,7 @@
                         android:fontFamily="sans-serif"/>
 
                     <Button
+                        android:id="@+id/btn_con2"
                         android:layout_width="wrap_content"
                         android:layout_height="36dp"
                         android:layout_below="@id/tv60"

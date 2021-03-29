@@ -41,10 +41,11 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_marginTop="470dp"
-            android:layout_centerHorizontal="true"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/breaki"
+            android:layout_marginTop="229dp"
+            android:layout_centerHorizontal="true"
             android:text="Hoàn tất" />
 
         <TextView
@@ -96,6 +97,7 @@
             android:textSize="13sp"
             />
         <View
+            android:id="@+id/breaki"
             android:layout_height="1dp"
             android:layout_marginTop="240dp"
             android:layout_width="350dp"

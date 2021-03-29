@@ -20,6 +20,17 @@
         <activity android:name=".activities.ProductListActivity"></activity>
         <activity android:name=".activities.WarehouseManagementActivity"></activity>
         <activity android:name=".activities.DetailWarehouseLocationActivity"></activity>
+        <activity android:name=".activities.WarehouseDetailActivity"></activity>
+        <activity android:name=".activities.AddNewCityActivity"></activity>
+        <activity android:name=".activities.AddNewWareHouseActivity"></activity>
+        <activity android:name=".activities.ReceiveNoteConfirmActivity"></activity>
+        <activity android:name=".activities.ExportProductActivity"></activity>
+        <activity android:name=".activities.ExportNoteConfirmActivity"></activity>
+        <activity android:name=".activities.MoveProductTwoActivity"></activity>
+        <activity android:name=".activities.MoveProductThreeActivity"></activity>
+        <activity android:name=".activities.CreateProductActivity"></activity>
+        <activity android:name=".activities.ProductDetailActivity"></activity>
+        <activity android:name=".activities.ProductEditActivity"></activity>
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

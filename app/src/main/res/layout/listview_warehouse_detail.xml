@@ -16,8 +16,8 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginTop="5dp"
             app:srcCompat="@drawable/ic_baseline_location_on_30" />
 
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:text="Location"
                 android:textColor="@color/black"
-                android:textSize="30sp" />
+                android:textSize="20sp" />
             <TextView
                 android:id="@+id/tv_add"
                 android:layout_below="@id/tv_location"
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:text="Address goes here"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="12sp" />
             <TextView
                 android:id="@+id/tv_phone"
                 android:layout_below="@id/tv_add"
@@ -52,9 +52,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Phone goes here"
-                android:background="@drawable/border_bottom"
+                android:background="@drawable/border_bottom_f6"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="12sp" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

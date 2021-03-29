@@ -11,7 +11,7 @@
         android:padding="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/cardview_warehouse_location">
+        android:background="@drawable/cardview_warehouse_location_white">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -30,6 +30,6 @@
             android:text="Location"
             android:background="@drawable/border_bottom"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
     </RelativeLayout>
 </RelativeLayout>

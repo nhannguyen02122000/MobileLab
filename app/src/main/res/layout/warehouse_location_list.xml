@@ -69,8 +69,8 @@
             android:id="@+id/rl_them">
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:padding="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -86,7 +86,7 @@
                 android:layout_marginLeft="15dp"
                 android:text="Thêm tỉnh thành"
                 android:textColor="@color/button_purple"
-                android:textSize="25sp"/>
+                android:textSize="22sp"/>
 
         </RelativeLayout>
 

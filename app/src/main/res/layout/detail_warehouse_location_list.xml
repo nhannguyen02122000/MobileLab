@@ -34,21 +34,21 @@
             android:text="Thành phố Hồ Chí Minh"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:layout_below="@id/imageView3"
+            android:layout_below="@id/imageView3_xyz"
             android:layout_centerHorizontal="true"
             />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textView6"
+            android:layout_below="@id/textView6_tenkho"
             android:layout_marginTop="20dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:id="@+id/rl_them">
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:padding="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -68,10 +68,18 @@
                 android:textSize="18sp"/>
 
         </RelativeLayout>
-        <ListView
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/rl_them"/>
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_them"
+            android:layout_marginTop="15dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_123">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </ScrollView>
 
 
     </RelativeLayout>
