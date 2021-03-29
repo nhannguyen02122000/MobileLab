@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView55"
         android:layout_width="456dp"
         android:layout_height="487dp"
         android:layout_marginBottom="300dp"
