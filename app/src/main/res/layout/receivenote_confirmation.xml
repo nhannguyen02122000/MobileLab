@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,10 +19,10 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="44dp"
-        android:layout_height="44dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:rotation="180"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
+        android:layout_marginLeft="80dp"
         android:fontFamily="sans-serif"
         android:textColor="@color/white"
         android:text="Xác nhận đơn nhập hàng"
@@ -48,7 +49,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/halfrounded_background"
-        android:layout_marginTop="80dp">
+        android:layout_marginTop="100dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -65,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:text="#I233131231"
                     android:textColor="@color/black"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"/>
                 <TextView
@@ -83,7 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv1"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="40dp">
                     <TextView
                         android:id="@+id/tv4"
                         android:layout_width="wrap_content"
@@ -123,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/rl1"
                     android:id="@+id/rl2"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="20dp">
                     <TextView
                         android:id="@+id/tv40"
                         android:layout_width="wrap_content"
@@ -163,7 +164,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/rl2"
                     android:id="@+id/rl3"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="20dp">
                     <TextView
                         android:id="@+id/tv400"
                         android:layout_width="wrap_content"
@@ -238,4 +239,4 @@
 
 
     </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
