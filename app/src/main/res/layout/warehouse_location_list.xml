@@ -54,7 +54,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/tiet_user"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/round_gray_search"
                 android:hint="@string/search"
@@ -90,9 +90,16 @@
 
         </RelativeLayout>
 
-        <ListView
+        <ScrollView
+            android:layout_marginTop="12dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </ScrollView>
 
 
     </LinearLayout>
