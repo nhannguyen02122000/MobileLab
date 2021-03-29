@@ -20,7 +20,7 @@
             android:id="@+id/createpdf25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="93dp"
+            android:layout_marginLeft="70dp"
             android:layout_marginTop="54dp"
             android:text="Danh sách sản phẩm"
             android:textColor="#ffffff"
@@ -31,8 +31,8 @@
             android:id="@+id/imageView7"
             android:layout_width="11dp"
             android:layout_height="18dp"
-            android:layout_marginLeft="35dp"
-            android:layout_marginTop="63dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="67dp"
             app:srcCompat="@drawable/backbtnn" />
     </RelativeLayout>
 

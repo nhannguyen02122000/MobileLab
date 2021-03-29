@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Đơn nhập kho"
+        android:text="Đơn xuất kho"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -58,7 +58,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đơn cần nhập"
+        android:text="Đơn cần xuất"
         android:textColor="@color/white"
         android:textSize="18sp"
 

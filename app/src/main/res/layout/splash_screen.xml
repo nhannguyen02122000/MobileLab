@@ -12,7 +12,7 @@
         android:layout_marginTop="580dp"
         android:text="@string/welcome"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,12 +23,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="524dp"
         android:fontFamily="sans-serif"
-        android:text="@string/hello"
+        android:text="Xin chào"
         android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
