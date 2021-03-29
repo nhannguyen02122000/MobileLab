@@ -23,22 +23,21 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif"
         android:textColor="@color/white"
         android:text="Chuyển kho"
         android:textStyle="bold"
-        android:textSize="25sp"
+        android:textSize="24sp"
         />
 
     <androidx.cardview.widget.CardView
         android:layout_width="380dp"
         android:layout_height="200dp"
         app:cardCornerRadius="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView6"
-        android:layout_marginTop="20dp">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -283,4 +282,4 @@
             android:textColor="#ffffff"
             android:textSize="20sp"/>
     </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
